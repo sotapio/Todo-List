@@ -19,6 +19,15 @@ header {
   padding: 2rem;
 }
 
+h1 {
+  color: black;
+  /* 色を指定 */
+  font-size: 2rem;
+  /* フォントサイズを指定 */
+  display: block;
+  /* 表示を強制 */
+}
+
 .inputForm {
   width: 80vh;
   margin: 0 auto;
