@@ -5,11 +5,13 @@ import { InputForm } from './components/InputForm';
 import { TodoList } from './components/TodoList';
 
 function App() {
+  const [taskList, setTaskList] = React.useState([]);
+
   return (
     <div className="body">
       <Title />
-      <InputForm />
-      <TodoList />
+      <InputForm taskList={taskList} setTaskList={setTaskList} />
+      <TodoList taskList={taskList} setTaskList={setTaskList} />
     </div>
   );  
 }
