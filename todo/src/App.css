@@ -35,6 +35,10 @@ h1 {
   position: relative;
 }
 
+
+form{
+  margin-bottom: 2rem;
+}
 .inputForm input {
   width: 15rem;
   height: 1.7rem;
