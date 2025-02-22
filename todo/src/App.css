@@ -9,7 +9,13 @@ body {
   font-family: 'Roboto Condensed', sans-serif;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom, rgb(231, 157, 238), rgb(135, 233, 126));
+  /* background: linear-gradient(to bottom, rgb(231, 157, 238), rgb(135, 233, 126)); */
+  background-image: url("../public/back.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
 }
 
 header {
@@ -20,7 +26,7 @@ header {
 }
 
 h1 {
-  color: black;
+  color: white;
   /* 色を指定 */
   font-size: 2rem;
   /* フォントサイズを指定 */
