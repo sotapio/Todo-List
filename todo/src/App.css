@@ -46,7 +46,7 @@ form{
   margin-bottom: 2rem;
 }
 .inputForm input {
-  width: 25rem;
+  width: 15rem;
   height: 1.7rem;
   padding: 0.5rem;
   border: none;
@@ -90,7 +90,6 @@ form{
   max-height: 1.8rem;
   padding: 0.3rem 4rem;
   background: white;
-  width: 30rem;
 }
 
 
