@@ -34,6 +34,15 @@ h1 {
   /* 表示を強制 */
 }
 
+p{
+  color: white;
+  /* 色を指定 */
+  font-size: 1.2rem;
+  /* フォントサイズを指定 */
+  display: block;
+  /* 表示を強制 */
+}
+
 .inputForm {
   width: 80vh;
   margin: 0 auto;
