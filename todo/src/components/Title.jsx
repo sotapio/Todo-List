@@ -5,6 +5,7 @@ export const Title = () => {
       <div>
           <header>
               <h1>ToDoList</h1>
+              <p>タスクを入力してください</p>
           </header>
       </div>
   )
